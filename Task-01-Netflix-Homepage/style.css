@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 83.5vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('Images/Netflix-home-page.jpg');
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+}
+nav .logo{
+    position: absolute;
+    left: 165px;
+    top: 5px;
+}
+nav .logo img{
+    width: 148px;
+    height: auto;
+}
+nav .language-select{
+    position: absolute;
+    right: 280px;
+    top: 25.5px;
+}
+nav .language-select select{
+    background: transparent;
+    color: white;
+    width: 130px;
+    height: 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+nav .signin{
+    position: absolute;
+    right: 180px;
+    top: 32.5px;
+}
+nav .signin ul li{
+    list-style: none;
+}
+nav .signin ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+header .header-content{
+    width: 100%;
+    position: absolute;
+    top: 44.2%;
+    left: 49.78%;
+    transform: translate(-50%, -50%);
+}
+header .header-content h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3em;
+}
+header .header-content h4{
+    color: white;
+    text-align: center;
+    font-size: 1.55em;
+    line-height: 6.4vh;
+    font-weight: 10;
+}
+header .header-content h5{
+    color: white;
+    text-align: center;
+    font-size: 1.29em;
+    line-height: 6.4vh;
+    font-weight: 10;
+}
+header  .header-content input{
+    position: absolute;
+    left: 28.8vw;
+    top: 29.5vh;
+    padding: 20px 15.2px;
+    width: 27vw;
+    background: rgba(0, 0, 0, 0.473);
+    border: 0.5px solid whitesmoke;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+}
+header  .header-content button{
+    position: absolute;
+    top: 29.21vh;
+    left: 56.3vw;
+    background-color: red;
+    padding: 15.9px 31.48px;
+    border: none;
+    border-radius: 6px;
+}
+header  .header-content button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+hr{
+    height: 8px;
+    border: none;
+    background-color: rgb(51, 51, 51);
+}
+section.row1{
+    width: 100%;
+    height: 67vh;
+    position: relative;
+}
+section.row1 .txt-coloumn{
+    position: absolute;
+    left: 12%;
+    top: 36%;
+}
+section.row1 .txt-coloumn h1{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 800;
+}
+section.row1 .txt-coloumn h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+section.row1 .row1-video{
+    position: absolute;
+    right: 9.5%;
+    top: 21.4%;
+}
+section.row1 .row1-video video{
+    width: 40vw;
+    height: auto;
+}
+section.row2{
+    width: 100%;
+    height: 67vh;
+    position: relative;
+}
+section.row2 .txt-coloumn{
+    position: absolute;
+    right: 15%;
+    top: 21%;
+}
+section.row2 .txt-coloumn h1{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 800;
+}
+section.row2 .txt-coloumn h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+section.row2 .row2-video{
+    position: absolute;
+    left: 19%;
+    top: 20.2%;
+}
+section.row2 .row2-video video{
+    width: 23vw;
+    height: auto;
+}
+section.row3{
+    width: 100%;
+    height: 67vh;
+    position: relative;
+}
+section.row3 .txt-coloumn{
+    position: absolute;
+    left: 12%;
+    top: 35%;
+}
+section.row3 .txt-coloumn h1{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 800;
+}
+section.row3 .txt-coloumn h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+section.row3 .row3-video{
+    position: absolute;
+    right: 12%;
+    top: 13.5%;
+}
+section.row3 .row3-video video{
+    width: 35vw;
+    height: auto;
+}
+section.row4{
+    width: 100%;
+    height: 67vh;
+    position: relative;
+}
+section.row4 .txt-coloumn{
+    position: absolute;
+    right: 13%;
+    top: 23%;
+}
+section.row4 .txt-coloumn h1{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 800;
+}
+section.row4 .txt-coloumn h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+section.row4 .row4-img{
+    position: absolute;
+    left: 11.8%;
+    top: 8%;
+}
+section.row4 .row4-img img{
+    width: 38vw;
+    height: auto;
+}
+section.faq{
+    width: 100%;
+    height: 118vh;
+    position: relative;
+}
+section.faq .faq-heading{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+}
+section.faq .faq-heading h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+}
+section.faq .questions{
+    position: absolute;
+    top: 20%;
+    left: 11.2%;
+}
+section.faq .questions ul li{
+    list-style: none;
+    padding: 5px;
+}
+section.faq .questions ul li input[type="radio"]{
+    display: none;
+}
+section.faq .questions ul li label{
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 758px;
+    padding-left: 24px;
+    background-color: #303030;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+section.faq .questions ul li label:after{
+    content: '+';
+    font-size: 50px;
+    position: absolute;
+    right: 32px;
+}
+section.faq h5{
+    position: absolute;
+    top: 94.5vh;
+    left: 27vw;
+    color: white;
+    text-align: center;
+    font-size: 1.28em;
+    line-height: 6.5vh;
+    font-weight: 10;
+}
+section.faq input{
+    position: absolute;
+    left: 28.76vw;
+    top: 101.4vh;
+    padding: 20px 15.2px;
+    width: 27vw;
+    background: rgb(12, 12, 12);
+    border: 2px solid #303030;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+}
+section.faq button{
+    position: absolute;
+    top: 101.4vh;
+    left: 56.3vw;
+    background-color: red;
+    padding: 15.9px 28.5px;
+    border: none;
+    border-radius: 6px;
+}
+section.faq button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.footer{
+    width: 100%;
+    height: 46vh;
+    position: relative;
+}
+.footer h2{
+    position: absolute;
+    top: 8vh;
+    left: 11vw;
+    font-size: 17px;
+    font-weight: 10;
+    color: rgba(255, 255, 255, 0.733);
+}
+.footer h2 span{
+    text-decoration: underline;
+}
+.footer .row .column1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13.4vh;
+    left: 11vw;
+}
+.footer .row .column1 a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.733);
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.footer .row .column2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13.4vh;
+    left: 30vw;
+}
+.footer .row .column2 a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.733);
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.footer .row .column3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13.4vh;
+    left: 51vw;
+}
+.footer .row .column3 a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.733);
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.footer .row .column4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13.4vh;
+    left: 70vw;
+}
+.footer .row .column4 a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.733);
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.footer .row .language-select{
+    position: absolute;
+    top: 29vh;
+    left: 11vw;
+}
+.footer .row .language-select select{
+    background: rgb(12, 12, 12);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 5.8px 28px;
+}
+.footer .row h5{
+    position: absolute;
+    top: 35.5vh;
+    left: 11vw;
+    color: rgba(255, 255, 255, 0.733);
+}
